@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Projeto-4CARS</title>
+    <link rel="shortcut icon" href="./img/4cars2.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./img/4cars2.jpg" alt="logo-4cars">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Aluguel e compras de carros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Dúvidas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Quero meu carro</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./img/menu-button.avif" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Aluguel e compras de carros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Dúvidas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="#">Quero meu carro</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="texto">
+            <h2 class="titulo">Compra e aluguel de carros pelo menor preço do mercado</h2>
+            <div class="bottoes">
+                <a href="#aqui" id="btnQueroMeuCarro">Consulte nossos vendedores</a>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="container-aside">
+        <section class="section-aside">
+
+            <aside class="image-container">
+                <h2 class="title-img">Prefira contratar online: em poucos passos, você já pode agendar a retirada do seu
+                    <span>4CARS</span>!
+                </h2>
+                <img src="./img/img-form.png" alt="Descrição da imagem">
+            </aside>
+
+            <aside class="formulario" id="aqui">
+                <form class="form">
+
+                    <h2 class="title-form">Cadastrar</h2>
+
+                    <label class="label-form" for="username">Nome completo</label>
+
+                    <input id="username" name="username" type="text" placeholder="Digite seu nome">
+
+                    <label class="label-form" for="email">E-mail</label>
+
+                    <input id="email" name="email" type="email" placeholder="Digite seu e-mail">
+
+                    <label class="label-form" for="telefone">Telefone</label>
+
+                    <input class="label-form" id="telefone" name="cel" type="tel" placeholder="Digite seu telefone">
+
+                    <button class="button-form" type="submit">Continuar</button>
+
+
+                </form>
+            </aside>
+        </section>
+    </div>
+
+    <!-- <footer>
+        <div class="logo-footer"><img src="./img/4cars2.jpg" alt=""></div>
+        
+        <div></div>
+
+        <div></div>
+    </footer> -->
+    <script src="./script.js"></script>
+</body>
+
+
+</html>

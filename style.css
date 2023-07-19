@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header/Nav///////////////////////////////////////////// */
+
+header {
+    background-color: white;
+    border-bottom: 4px solid tomato;
+    box-shadow: 0px 3px 10px crimson;
+    /* height: 12vh; */
+    /* width: 100vw; */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: tomato;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid tomato;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: tomato;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.login-button button a:hover {
+    color: black;
+}
+
+/* Header/Nav///////////////////////////////////////////// */
+
+/* Main/Conteudo///////////////////////////////////////////////// */
+
+.main-content {
+    height: 88vh;
+    background: url('./img/nova-propaganda.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border-bottom: 4px solid tomato; */
+}
+
+.texto .titulo {
+    color: white;
+    font-size: 24px;
+    font-weight: 600px;
+    background-color: tomato;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+    /* margin-bottom: 200px; */
+}
+
+.texto .bottoes {
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+}
+
+.texto .bottoes a {
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid black 2px;
+    background-color: white;
+    color: tomato;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 2px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.texto .bottoes a:hover {
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    border: solid white 2px;
+}
+
+/* Main/Conteudo///////////////////////////////////////////////// */
+
+/* Formulario////////////////////////////////////////////////////////// */
+
+span {
+    color: black;
+}
+
+.container-aside {
+    border: solid white 2rem;
+    background-color: white;
+}
+
+.section-aside {
+    display: flex;
+    border: black solid 1px;
+    box-shadow: 2px 2px 2px 2px black;
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+    height: 100%;
+}
+
+.title-img {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: white;
+    font-size: 22px;
+    font-weight: 600px;
+    text-align: center;
+    width: 100%;
+    /* border: solid black 5px; */
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    /* background-color: white; */
+    /* background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754); */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formulario .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.title-form {
+    color: white;
+    font-size: 32px;
+    font-weight: 600px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.formulario .form .label-form {
+    margin-bottom: 10px;
+}
+
+.formulario .form input {
+    margin-bottom: 1rem;
+    width: 90%;
+    line-height: 3rem;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+
+.button-form {
+    width: 94%;
+    line-height: 50px;
+    margin: 0 auto;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: crimson;
+}
+
+
+/* Formulario////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////MENU-Mobile*/
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+/* /////////////////////////////////////MENU-Mobile*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cadastro button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.cadastro button:active {
+
+    border: solid 2px orange;
+    color: orange;
+} */
+
+/* .menu nav a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.menu nav a:active {
+    color: orangered;
+} */
