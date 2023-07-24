@@ -104,6 +104,13 @@
     .open {
         display: block;
     }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        height: 30vh;
+    }
 }
 
 @media (max-width: 767px) {
@@ -166,8 +173,11 @@
         font-size: 12px;
     }
 
-    .formulario .form{
+    .formulario .form {
         width: 60%;
     }
 
+    .footer {
+        font-size: 14px;
+    }
 }
