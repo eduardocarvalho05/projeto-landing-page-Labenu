@@ -82,13 +82,18 @@ header {
     color: black;
 }
 
+.nav-bar .mobile-menu-icon .icon {
+    width: 40px;
+    margin-top: 10px;
+}
+
 /* Header/Nav///////////////////////////////////////////// */
 
 /* Main/Conteudo///////////////////////////////////////////////// */
 
 .main-content {
     height: 88vh;
-    background: url('./img/nova-propaganda.avif');
+    background: url('./img/Main-4cars.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -96,6 +101,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     /* border-bottom: 4px solid tomato; */
+    color: #fd5754 tomato;
 }
 
 .texto .titulo {
@@ -177,8 +183,6 @@ span {
     justify-content: center;
     position: relative;
     width: 80%;
-    /* background-color: white; */
-    /* background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754); */
 }
 
 .image-container img {
@@ -188,13 +192,12 @@ span {
     margin-top: 80px;
 }
 
-
 .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 66vh;
     width: 100vw;
     box-sizing: border-box;
     padding-top: 20px;
@@ -207,6 +210,7 @@ span {
     align-items: center;
     justify-content: center;
     background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+    color: white;
     width: 50%;
     height: 100%;
     padding: 10px;
@@ -227,15 +231,30 @@ span {
 
 .formulario .form input {
     margin-bottom: 1rem;
-    width: 90%;
+    width: 80%;
     line-height: 3rem;
     padding-left: 20px;
     border-radius: 8px;
 }
 
+.formulario .form #mensagem-erro {
+    margin-top: 18px;
+    display: flex;
+    text-align: center;
+    width: 86%;
+    font-size: 18px;
+}
+
+.formulario .form #mensagem-sucesso {
+    display: flex;
+    text-align: center;
+    width: 86%;
+    font-size: 16px;
+}
+
 
 .button-form {
-    width: 94%;
+    width: 84%;
     line-height: 50px;
     margin: 0 auto;
     background-color: tomato;
@@ -291,6 +310,7 @@ button[type="submit"]:hover {
 
 .footer .logo-footer {
     height: 80px;
+    margin-left: 10vw;
 }
 
 .icones-footer-titulo {
@@ -331,46 +351,39 @@ button[type="submit"]:hover {
     -webkit-text-fill-color: transparent;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .cadastro button:hover {
-    background-color: orangered;
-    color: white;
+.footer .endereco a {
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
 }
 
-.cadastro button:active {
-
-    border: solid 2px orange;
-    color: orange;
-} */
-
-/* .menu nav a:hover {
-    background-color: orange;
+footer .direitos {
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
 }
 
-.menu nav a:active {
-    color: orangered;
-} */
+/* Estilo para os ícones */
+.icones-footer i {
+    font-size: 24px;
+    /* Tamanho inicial dos ícones */
+    margin: 5px;
+    /* Espaçamento entre os ícones */
+    transition: transform 0.2s;
+    /* Adiciona uma transição suave para o efeito de escala */
+}
+
+/* Estilo para os ícones quando o mouse passar por cima (:hover) */
+.icones-footer i:hover {
+    transform: scale(1.2);
+    /* Aumenta o tamanho dos ícones em 20% quando o mouse passar por cima */
+}
+
+/* Estilo para os ícones quando clicados (:active) */
+.icones-footer i:active {
+    transform: scale(1.2);
+    /* Aumenta o tamanho dos ícones em 20% quando clicados */
+}

@@ -61,63 +61,71 @@
                 <h2 class="title-img">Prefira contratar online: em poucos passos, você já pode agendar a retirada do seu
                     <span>4CARS</span>!
                 </h2>
-                <img src="./img/img-form.png" alt="Descrição da imagem">
+                <img src="./img/SEM_FUNDO.png" alt="Descrição da imagem">
             </aside>
 
             <aside class="formulario" id="aqui">
                 <form class="form">
                     <h2 class="title-form">Cadastrar</h2>
-                    
+
                     <label class="label-form" for="username">Nome completo</label>
-                    <input id="username" name="username" type="text" placeholder="Digite seu nome">
-                    
+                    <input id="username" name="username" type="text" placeholder="Digite seu nome" maxlength="30">
+
                     <label class="label-form" for="email">E-mail</label>
                     <input id="email" name="email" type="email" placeholder="Digite seu e-mail">
-                    
+
                     <label class="label-form" for="telefone">Telefone</label>
                     <input class="label-form" id="telefone" name="cel" type="tel" placeholder="Digite seu telefone">
-                    
-                    <button class="button-form" type="submit" onclick="formulario()">Continuar</button>
+
+                    <button type="button" class="button-form" onclick="formulario()">Continuar</button>
+                    <div id="mensagem-erro"></div>
+                    <div id="mensagem-sucesso"></div>
                 </form>
-                <!-- <div id="mensagem-sucesso"></div> -->
+
             </aside>
         </section>
     </div>
 
-    <footer class="footer">
+    <footer>
+        <div class="footer">
+            <div class="icones-footer-titulo">
+                <p>Nos siga nas <strong>redes sociais!</strong></p>
+                <div class="icones-footer">
 
-        <div class="icones-footer-titulo">
-            <p>Nos siga nas <strong>redes sociais!</strong></p>
-            <div class="icones-footer">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram" id="instagram"></i>
+                    </a>
 
-                <a href="#">
-                    <i class="fa-brands fa-instagram" id="instagram"></i>
-                </a>
+                    <a href="https://pt-br.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook" id="facebook"></i>
 
-                <a href="#">
-                    <i class="fa-brands fa-facebook" id="facebook"></i>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
+                    </a>
 
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
-                </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <i class="fa-brands fa-youtube" id="youtube"></i>
+                    </a>
 
-                <a href="#">
-                    <i class="fa-brands fa-youtube" id="youtube"></i>
-                </a>
+                </div>
+            </div>
+            <div>
+                <img src="./img/4cars2.jpg" alt="Logo-4CARS" class="logo-footer">
+            </div>
 
+            <div class="endereco">
+                <address>
+                    <a href="https://www.google.com.br/maps/place/Campo+Grande+Office+%26+Mall/@-22.9174887,-43.5518221,18z/data=!3m1!4b1!4m6!3m5!1s0x9be71ca66cd497:0xad05a1d96f84e96c!8m2!3d-22.9174902!4d-43.5510566!16s%2Fg%2F11p5zfm29h?entry=ttu"
+                        target="_blank"><i class="fa-solid fa-map-location-dot"></i>Estr. da Cachamorra, 350 - Campo
+                        Grande,
+                        Rio de Janeiro - RJ, 23040-150</a>
+                </address>
             </div>
         </div>
-        <div>
-            <img src="./img/4cars2.jpg" alt="Logo-4CARS" class="logo-footer">
-        </div>
 
-        <div class="endereco">
-            <address>
-                <a href="https://www.google.com.br/maps/place/Campo+Grande+Office+%26+Mall/@-22.9174887,-43.5518221,18z/data=!3m1!4b1!4m6!3m5!1s0x9be71ca66cd497:0xad05a1d96f84e96c!8m2!3d-22.9174902!4d-43.5510566!16s%2Fg%2F11p5zfm29h?entry=ttu"
-                    target="_blank"><i class="fa-solid fa-map-location-dot"></i>Estr. da Cachamorra, 350 - Campo Grande,
-                    Rio de Janeiro - RJ, 23040-150</a>
-            </address>
+        <div class="direitos">
+            <h4>© 2023 4Cars Tecnologia Ltda.</h4>
         </div>
 
     </footer>
