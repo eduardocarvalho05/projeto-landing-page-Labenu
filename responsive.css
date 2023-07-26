@@ -199,4 +199,14 @@
         width: 86%;
         font-size: 14px;
     }
+
+    .footer .icones-footer a i {
+        font-size: 32px;
+        padding: 20px;
+        background-color: white;
+    }
+
+    .footer .endereco a {
+        font-size: 13px;
+    }
 }

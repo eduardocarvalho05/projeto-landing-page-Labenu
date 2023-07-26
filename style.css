@@ -315,6 +315,7 @@ button[type="submit"]:hover {
 
 .icones-footer-titulo {
     text-align: center;
+    color: tomato;
 }
 
 .footer .icones-footer {
@@ -355,6 +356,7 @@ button[type="submit"]:hover {
     text-decoration: none;
     font-size: 14px;
     text-align: center;
+    color: tomato;
 }
 
 footer .direitos {
