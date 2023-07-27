@@ -55,7 +55,7 @@
 
 }
 
-@media (max-width: 922px) {
+@media (max-width: 901px) {
     .nav-bar {
         padding: 1.5rem 4rem;
     }
@@ -112,12 +112,12 @@
         display: flex;
         flex-direction: column;
         gap: 16px;
-        height: 30vh;
+        height: 36vh;
     }
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     .main-content {
         background-position: 60% center;
     }
@@ -209,4 +209,9 @@
     .footer .endereco a {
         font-size: 13px;
     }
+
+    .formulario{
+        height: 72vh;
+    }
 }
+
