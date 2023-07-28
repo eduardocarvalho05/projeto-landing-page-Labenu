@@ -78,8 +78,8 @@ header {
     font-size: 1.1rem;
 }
 
-.login-button button a:hover {
-    color: black;
+.login-button button:hover {
+    background-color: crimson;
 }
 
 .nav-bar .mobile-menu-icon .icon {
@@ -93,7 +93,7 @@ header {
 
 .main-content {
     height: 88vh;
-    background: url('./img/Main-4cars.jpeg');
+    background: url('./img/Main-4cars.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -145,6 +145,116 @@ header {
 }
 
 /* Main/Conteudo///////////////////////////////////////////////// */
+
+.container-carros {
+    height: 74vh;
+    padding: 14px;
+}
+
+.container-carros h1 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 50px;
+}
+
+.container-carros h1 .span-carros {
+    border-bottom: tomato solid 12px;
+}
+
+.container-carros .todos-carros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+}
+
+
+.container-carros .carro-1 {
+    border: rgba(0, 0, 0, 0.1) 2px solid;
+    height: 50vh;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #ff634725;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container-carros .carro-2 {
+    border: rgba(0, 0, 0, 0.1) 2px solid;
+    height: 50vh;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #ff634725;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container-carros .carro-3 {
+    border: rgba(0, 0, 0, 0.1) 2px solid;
+    height: 50vh;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #ff634725;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container-carros .carro-4 {
+    border: rgba(0, 0, 0, 0.1) 2px solid;
+    height: 50vh;
+    width: 290px;
+    border-radius: 10px;
+    background-color: #ff634725;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container-carros .todos-carros h2 {
+    text-align: center;
+    padding: 6px;
+}
+
+.container-carros .todos-carros img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 1px;
+}
+
+.container-carros .todos-carros p {
+    padding: 6px 30px;
+}
+
+.container-carros .todos-carros h3 {
+    padding: 0 30px;
+}
+
+/* Estilizando os botões dentro da classe .todos-carros */
+.container-carros .todos-carros a button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1vh;
+    width: 80%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.container-carros .todos-carros button:hover {
+    background-color: crimson;
+}
+
+.container-carros .todos-carros a{
+    text-decoration: none;
+}
+
+
 
 /* Formulario////////////////////////////////////////////////////////// */
 
@@ -266,7 +376,7 @@ span {
     transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover {
+.button-form:hover {
     background-color: crimson;
 }
 

@@ -47,11 +47,9 @@
         margin-left: 0;
     }
 
-
     .formulario .form {
         width: 40%;
     }
-
 
 }
 
@@ -115,6 +113,19 @@
         height: 36vh;
     }
 
+    .container-carros {
+        height: 130%;
+    }
+
+    .container-carros .todos-carros {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 }
 
 @media (max-width: 700px) {
@@ -148,6 +159,7 @@
     .formulario .form .label-form {
         font-size: 14px;
     }
+
 
 }
 
@@ -210,8 +222,39 @@
         font-size: 13px;
     }
 
-    .formulario{
+    .formulario {
         height: 72vh;
     }
-}
 
+
+    .container-carros h1 {
+        text-align: center;
+        padding: 40px 0;
+        font-size: 30px;
+    }
+
+    .container-carros .carro-1 {
+        height: 59vh;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .container-carros .carro-2 {
+        height: 59vh;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .container-carros .carro-3 {
+        height: 59vh;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .container-carros .carro-4 {
+        height: 59vh;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+}
